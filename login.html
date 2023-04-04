@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER LOGIN</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/login_style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="logo">&nbsp;&nbsp;&nbsp;&nbsp;<u>Apni</u><span style="color:white"> दुकान</span>
+            <ul>
+                <li><a href="/"><b>Home | </b></a></li>
+                <li><a href="/login"><b>Log in | </b></a></li>
+                <li><a href="/aboutus"><b>About | </b></a></li>
+                <li><a href="#"><b>Contact us </b></a></li>
+            </ul>
+        </div>
+    </header> 
+    <div class="main">  	
+    
+            <div class="login">
+                <form class="form" method="POST">
+                    {% csrf_token %}
+                    <label for="chk" aria-hidden="true">Log in</label>
+                    <input class="input" type="text" name="username" placeholder="Username" required="">
+                    <input class="input" type="password" name="pswd" placeholder="Password" required="">
+                    <button type="submit">Log in</button>
+                    <p style="font-size: large; font-weight: bold; color: white; text-align: center;" >New User?<a href="/register"> Click here to register.</a></p>
+                </form>
+                
+            </div>
+    </div>
+    <div class="anim">
+        <img src="{% static 'css\login-animate.gif'%}" alt="">
+    </div>
+    <!-- <footer>
+        Footer
+    </footer> -->
+</body>
+</html>

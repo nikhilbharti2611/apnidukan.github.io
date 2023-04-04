@@ -1,0 +1,132 @@
+/* header */
+*{
+    margin:0%;
+    padding: 0;
+    font-family: 'poppins', sens-serif;
+    box-sizing: border-box;
+}
+li{
+    float:left;
+}
+li a{
+    padding: 20px;
+    font-size: 20px;
+    font-style: lato;
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    margin-top: 0px;
+    
+}   
+ul{
+    display: flex;
+    float:right;
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.logo{
+    margin: auto 3res;
+    padding:12px ;
+    font-size: 45px;
+    background-color: rgb(82, 12, 147);
+    color: rgb(255, 255, 255);}
+
+    .slider {
+        position: relative;
+        overflow: hidden;
+        height: 700px;
+      }
+      
+      .slider img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+      }
+
+    /* .search-container {
+       
+        heigh display: flex;
+        justify-content: center;
+        align-items: center;t: 50px;
+        width: 400px;
+        border-radius: 5px;
+        margin: auto;
+        background-color:rgb(82, 12, 147);
+       
+        
+        
+      }
+      .search-box {
+        height: 80%;
+        width: 70%;
+        padding: 10px;
+        border: none;
+        font-size: 16px;
+        border-radius: 5px; } */
+
+/* main */
+
+h1{
+    font-size: 50px;
+    color: #410808;
+}
+
+h2{
+    font-size: 40px;
+    color: rgb(254, 254, 254);
+    align-content: center;
+    background-color: #410808;
+    background-size: auto;
+    padding: 20px;
+    
+}
+h3{
+    font-size: 20px;
+    color: black;
+    margin-left: 50px;
+}
+
+   /* footer */
+.contain{
+    margin: auto 3res;
+    padding:20px ;
+    font-size: 40px;
+    background-color: rgb(82, 12, 147);
+    color: rgb(0, 0, 0);}    
+
+
+img{
+    width:450px;
+    
+}
+
+  .item {
+    width: 600px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #a40e0e;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+    color:  rgb(255, 249, 249);
+    font-style: italic;
+    font-size: 30px;
+
+  }
+  .item-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+ 
+    input[type="submit"] {
+      transform: scale(2); 
+      border-radius: 5px;
+      
+    }

@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .fit{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  /* body{
+    background-image: url("loginbackround.jpg");
+  } */
+  /*to make navigation bar*/
+  li a{
+    padding: 8px;
+    font-size: 20px;
+    font-style: lato;
+    color: white;
+    text-decoration: none;
+  }
+  ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  /*to make header of the page*/
+  .logo{
+    margin-bottom: 16px;
+    margin: auto 3res;
+    padding: 12px;
+    font-size: 40px;
+    background-color: rgb(82,12,147);
+  }
+  a.hover{
+    color: red;
+  }
+  /* login animation */
+  .anim{
+    position: absolute;
+    display: flex;
+    height: 65%;
+    width: 30%;
+    margin-left: 55%;
+  }
+  /* login/register form css */
+  .main {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      background-color: #240046;
+      max-height: 900px;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 7px 7px 10px 3px #24004628;
+      margin-left: 20px;
+      width: 50%;
+    }
+    
+    .form {
+      margin-top: 3px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 24px;
+      height: 500px;
+    }
+    
+    label {
+      color: #fff;
+      font-size: 2rem;
+      justify-content: center;
+      display: flex;
+      font-weight: bold;
+      cursor: pointer;
+      transition: .5s ease-in-out;
+      padding: auto;
+    }
+    
+    .input {
+      width: 100%;
+      height: 40px;
+      background: #e0dede;
+      padding: 10px;
+      border: none;
+      outline: none;
+      margin-left: auto;
+      border-radius: 4px;
+    }
+    
+    /*Register*/
+    .register {
+      background: #eee;
+      border-radius: 60% / 10%;
+      transform: translateY(5%);
+      transition: .8s ease-in-out;
+    }
+    
+    .register label {
+      color: #573b8a;
+      transform: scale(1);
+    }
+    
+    #chk:checked ~ .register {
+      transform: translateY(-60%);
+    }
+    
+    #chk:checked ~ .register label {
+      transform: scale(1);
+      margin: 10% 0 5%;
+    }
+    
+    /*Button*/
+    .form button {
+      width: 85%;
+      height: 40px;
+      margin: 12px auto 10%;
+      color: #fff;
+      background: #573b8a;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: .2s ease-in;
+    }
+    
+    .form button:hover {
+      background-color: #6d44b8;
+    }
+  
+    /* footer css */
+    footer{
+      display: block;
+      position: relative;
+      
+    }
